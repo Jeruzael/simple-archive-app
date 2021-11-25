@@ -3,11 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <script src="https://www.gstatic.com/firebasejs/ui/6.0.0/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.0/firebase-ui-auth.css" />
+    <title>SimpArch</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <div class="container">
+      <div class="signUp">
+        <div class="logoBtnCont">
+          <div id="logo">
+            <span>LOGO</span>
+          </div>
+          <div class="googleSignUp">
+            <span>Google</span>
+          </div>
+          <div class="facebookSignUp">
+            <span>facebook</span>
+          </div>
+        </div>
+      </div>      
+    </div>    
+    <script type="module" src="/main.js" async></script>
   </body>
 </html>

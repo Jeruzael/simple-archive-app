@@ -1,8 +1,74 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(40, 40, 40);
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(200, 180, 180);
+  margin: auto;
+}
+
+.signUp {
+  display: flex;
+  border: 1px solid red;
+  width: 40vw;
+  height: 90vh;
+  margin: auto;
+  min-width: 250px;
+}
+
+.logoBtnCont {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  min-width: 100px;
+  width: 20vw;
+  height: 50vh;
+  margin: auto;
+}
+
+#logo {
+  border: 1px solid green;
+  margin: auto;
+  font-size: 10vmin;
+}
+
+.googleSignUp {
+  display: flex;
+  border: 1px solid blue;
+  height: 7vh;  
+  transition: 0.3sec;
+  cursor: pointer;
+}
+
+.googleSignUp span{
+  margin: auto;
+}
+
+.googleSignUp:active {
+  background-color: rgb(180, 170, 170);
+}
+
+.facebookSignUp {
+  display: flex;
+  border: 1px solid orange;
+  height: 7vh;
+  transition: 0.3sec;
+  cursor: pointer;
+}
+
+.facebookSignUp span{
+  margin: auto;
+}
+
+.facebookSignUp:active {
+  background-color: rgb(180, 170, 170);
 }
