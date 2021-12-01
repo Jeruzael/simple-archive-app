@@ -1,0 +1,24 @@
+.signup {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+
+.signup-Btn span {
+  border: 1px solid red;
+  padding-left: 7px;
+  padding-right: 7px;
+  cursor: pointer;  
+  transition: 0.2s;
+
+}
+
+.signup-Btn span:hover {
+  background-color: rgb(100, 73, 48);
+
+}
+
+.signup-Btn span:active {
+  background-color: rgb(200, 173, 148);
+
+}
